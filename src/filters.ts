@@ -89,8 +89,8 @@ angular.module('3ema.filters', [])
     return function(text, imgTag = false) {
         if (text !== null) {
             emojione.sprites = imgTag !== true;
+            emojione.emojiSize = '32';
             emojione.imagePathPNG = 'img/e1/';
-            emojione.imageType = 'png';
             return emojione.unicodeToImage(text);
         } else {
             return text;

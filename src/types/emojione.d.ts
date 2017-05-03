@@ -20,7 +20,7 @@ declare var emojione: {
     imagePathPNG: string,
     imagePathSVG: string,
     imagePathSVGSprites: string,
-    imageType: 'png' | 'svg',
+    emojiSize: string,
     unicodeAlt: boolean,
     ascii: boolean,
     unicodeRegexp: string,
